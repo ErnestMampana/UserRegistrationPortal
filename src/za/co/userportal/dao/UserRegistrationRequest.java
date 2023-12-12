@@ -2,8 +2,8 @@ package za.co.userportal.dao;
 
 public class UserRegistrationRequest {
 
-	String firstname;
-	String lastname;
+	String firstName;
+	String lastName;
 	String idNumber;
 	String streetName;
 	String postalCode;
@@ -11,19 +11,19 @@ public class UserRegistrationRequest {
 	String town;
 
 	public String getFirstname() {
-		return firstname;
+		return firstName;
 	}
 
 	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+		this.firstName = firstname;
 	}
 
 	public String getLastname() {
-		return lastname;
+		return lastName;
 	}
 
 	public void setLastname(String lastname) {
-		this.lastname = lastname;
+		this.lastName = lastname;
 	}
 
 	public String getIdNumber() {
